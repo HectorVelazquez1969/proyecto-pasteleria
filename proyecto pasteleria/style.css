@@ -1,0 +1,42 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navegacion{
+    background-color: rgb(229, 162, 210);
+}
+ul{
+    list-style: none;
+}
+
+.tarjeta{
+    width: 300px;
+    border: 2px solid brown;
+    margin: 10px;
+    background-color:rgb(229, 162, 210);
+    padding: 10px;
+}
+
+.piedepagina{
+    background-color: rgb(229, 162, 210);
+}
+
+.h2{
+    text-align: center;
+    padding: 50px;
+    background-color: blue;
+}
+.boton-comprar{
+    padding: 3px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    }
+.tarjeta>p{
+    width: 50%;
+    padding: 5px;
+}    
