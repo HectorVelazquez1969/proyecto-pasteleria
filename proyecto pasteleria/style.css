@@ -2,24 +2,39 @@
 
 *{ box-sizing: border-box;
     margin: 0;
-    padding: 0;
-
-}
-
+    padding: 0;}
 
 .navegacion{
     background-color: rgb(229, 162, 210);
     position: sticky;
     display: flex;
-}
+    width: 80%;
+    margin: auto;}
+
+
 ul{  list-style: none; }
-    
+
+.misproductos{
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+    font-size: 23px;
+    font-weight: lighter
+}
+.logo{
+    width: 100px;
+}  
 .derecha{
+    width: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    background-color:rgb(238, 147, 212);
-    border-radius: 1px; }
+    justify-content: center;
+    background-color:rgb(229, 162, 210);
+    position: relative;
+    left: 400px;
+
+}
+h1{font-size: 60px;}
 
 ul li a{
     text-decoration: none;
@@ -38,20 +53,26 @@ ul li a.activo{
     }
 
 .tarjeta{
-    width: 300px;
-    height: 330px;
+    width: 75%;
+    height: 300px;
     border: 2px solid brown;
+    gap: 5px;
     margin: 10px;
     background-color:rgb(229, 162, 210);
     padding: 10px;
-    position: relative;
-    font-family: "Dancing Script", cursive;}
+    font-family: "Dancing Script", cursive;
+    border-radius: 5px;
+    
+    
+}
  
-.h2{
+.h2{width: 80%;
+    margin: auto;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     background-color: aqua;
-    height: 35px;
+    height: 25px;
+    font-size: 35px;
 }
 .boton-comprar{
     padding: 3px;
@@ -64,11 +85,17 @@ ul li a.activo{
     padding: 5px;
 }    
 .contenedor{
+    margin: auto;
     background-color: aqua;
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    gap: 10px;
+
     
 }
 .titulotarjeta{
@@ -76,23 +103,10 @@ ul li a.activo{
     justify-content: center;
 }
 .scale:hover{
-    transform: scale(4);
+    transform: scale(1.5);
     display: flex;
     justify-content: center;}
     
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-
-
-
-.logo{padding: 5px;
-    width: 100px;
-    
-}
-
 .logo+h1{
     display: flex;
     text-justify: center;
