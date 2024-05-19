@@ -1,94 +1,162 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
-   
-    <title>Tortas y Pasteles</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</head>
-<body>
+    <title>Tortas y Pasteles</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Esto sera el encabezado o header -->
     <header>
-        <nav>
-            <div class="navegacion">
-                <img class="logo" src="imagenes/Pau.jpg" alt="Pau" width="350px">
-                <h1 class="Tituloprincipal">Bienvenidos a mi Sitio </h1>
-                <ul class="derecha">
-                    <!-- incluyo un ancla en mis listas para que me lleve a otro sitio que despues vere -->
-                    <li><a class="activo" href="index.html" >Home</a></li> 
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-
-        </nav>
+      <nav>
+        <div class="navegacion">
+          <img class="logo" src="imagenes/Pau.jpg" alt="Pau" width="350px" />
+          <h1 class="Tituloprincipal">Bienvenidos a mi Sitio</h1>
+          <div class="button">
+            <button>
+              <img src="imagenes/icwhatsapp.gif" alt="imagen de whatsapp" />
+            </button>
+            <h2 class="Escribinos">1165012875</h2>
+          </div>
+          <ul class="derecha">
+            <!-- incluyo un ancla en mis listas para que me lleve a otro sitio que despues vere -->
+            <li><a class="activo" href="index.html">Home</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <!-- Esto sera el main o contenido principal -->
+    <!-- 19/05 no logre reducir el espacio entre las etiquetas de las imagenes, probe poniendole margin a la clase tarjeta pero se desarma todo -->
+
     <main class="main">
+      <h2 class="h2">Te mereces algo Rico...?</h2>
+      <h3 class="h3">Estos son algunos de mis productos</h3>
+      <section class="contenedor">
+        <div class="tarjeta">
+          <h4 class="titulotarjeta">Tarta de Frutillas</h4>
+          <img
+            class="scale"
+            src="imagenes/tartadefrutillas.jpg"
+            alt="tarta"
+            width="200px"
+          />
+          <p>
+            Sencillamente deliciosa...una experiencia de sabor que te
+            enamorara.. .
+          </p>
+          <a class="boton-comprar">Hace tu pedido</a>
+          <p class="precio">$5000 el kilo</p>
+        </div>
+        <div class="tarjeta">
+          <h4 class="titulotarjeta">Torta de chocolate</h4>
+          <img
+            class="scale"
+            src="imagenes/tortadechocolate.jpg"
+            alt="torta"
+            width="200px"
+          />
 
-        <h2 class="h2">Te mereces algo Rico...? </h2>
-        <h3 class="misproductos">Estos son algunos de mis productos</h3>
-        <section class="contenedor">
-            <div class="tarjeta">
-                <h4 class="titulotarjeta">Tarta de Frutillas</h4><img class="scale" src="imagenes/tartadefrutillas.jpg" alt="tarta" width="200px">
-                <p>Sencillamente deliciosa...una experiencia de sabor que te enamorara.. .</p>
-                <a class="boton-comprar">Hace tu pedido</a>
-                <p class="precio">$5000 el kilo</p>
-            </div>
-            <div class="tarjeta">
-                <h4 class="titulotarjeta">Torta de chocolate</h4>
-                <img class="scale" src="imagenes/tortadechocolate.jpg" alt="torta" width="200px">
-                <p>Elaborada con productos frescos por lo que tendras que pedir este producto con anticipacion</p>
-                <a class="boton-comprar">Hace tu pedido</a>
-                <p class="precio">$5000 el kilo</p>
-            </div>
-            <div class="tarjeta">
-                <h4 class="titulotarjeta">Muffins Caseritos</h4><img class="scale" src="imagenes/muffins caseritos.jpg" alt="muffins" width="200px">
-                <p>Suaves, crocantes y delicados, riquisimos</p>
-                <a class="boton-comprar">Hace tu pedido</a>
-                <p class="precio">$5000 el kilo</p>
-            </div>
-            <div class="tarjeta">
-                <h4 class="titulotarjeta">Tarta de Frutas</h4>
-                <img class="scale"   src="./imagenes/tartadefrutas.jpg" alt="torta" width="200px">
-                <p> Elaborada artesanalmente con propuctos frescos y mucho amor <span>pedir con anticipacion</span></p>
-                <a class="boton-comprar">Hace tu pedido</a>
-                <p class="precio">$5000 el kilo</p>
-            </div>
-        </section>
+          <p>
+            Elaborada con productos frescos por lo que tendras que pedir este
+            producto con anticipacion
+          </p>
+          <a class="boton-comprar">Hace tu pedido</a>
+          <p class="precio">$5000 el kilo</p>
+        </div>
+        <div class="tarjeta">
+          <h4 class="titulotarjeta">Cupkakes</h4>
+          <img
+            class="scale"
+            src="imagenes/cupcakes_1280.jpg"
+            alt="cupkakes"
+            width="200px"
+          />
+          <p>
+            Sencillamente deliciosa...una experiencia de sabor que te
+            enamorara.. .
+          </p>
+          <a class="boton-comprar">Hace tu pedido</a>
+          <p class="precio">$5000 el kilo</p>
+        </div>
+        <div class="tarjeta">
+          <h4 class="titulotarjeta">Torta de crema</h4>
+          <img
+            class="scale"
+            src="imagenes/tortadecrema.jpg"
+            alt="torta de crema"
+            width="200px"
+          />
 
-        
+          <p>
+            Elaborada con productos frescos por lo que tendras que pedir este
+            producto con anticipacion
+          </p>
+          <a class="boton-comprar">Hace tu pedido</a>
+          <p class="precio">$5000 el kilo</p>
+        </div>
+        <div class="tarjeta">
+          <h4 class="titulotarjeta">Muffins Caseritos</h4>
+          <img
+            class="scale"
+            src="imagenes/muffins caseritos.jpg"
+            alt="muffins"
+            width="200px"
+          />
+          <p>Suaves, crocantes y delicados, riquisimos</p>
+          <a class="boton-comprar">Hace tu pedido</a>
+          <p class="precio">$5000 el kilo</p>
+        </div>
+        <div class="tarjeta">
+          <h4 class="titulotarjeta">Tarta de Frutas</h4>
+          <img
+            class="scale"
+            src="./imagenes/tartadefrutas.jpg"
+            alt="torta"
+            width="200px"
+          />
+          <p>
+            Elaborada artesanalmente con propuctos frescos y mucho amor
+            <span>pedir con anticipacion</span>
+          </p>
+          <a class="boton-comprar">Hace tu pedido</a>
+          <p class="precio">$5000 el kilo</p>
+        </div>
+      </section>
     </main>
-    
-    <section>
-        <h2>Nuestros expertos</h2>
-        <ul>
-            <li>Merchu</li>
-            <li>Angie</li>
-            <li>Bruno</li>
-        </ul>
-        <article>
-            <h2>Nota</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis architecto ut quaerat laboriosam animi fugiat praesentium labore mollitia amet, adipisci consequatur et commodi qui repudiandae illo quis est ducimus quod?</p>
-        </article>
+    <!-- Aca termina el main No pude arreglar el espacio entre tarjetas -->
+
+    <section class="section">
+      <div class="div">
+        <h2>Coordinemos envio a domicilio </h2>
+        <img src="imagenes/enviado.png" width="40px" 
+        ="camioncito"> El costo varia dependiendo de la zona.
+        <h2 class="horario">Horario de atencion</h2>
+        <h2>9 a 22hs</h2>
+        
+        
+      </div>
     </section>
 
-        <!-- A partir de aca el footer -->
-        <footer>
-            <div class="piedepagina ">
-                <p>Desarrollo web . Hector Velazquez - 2024</p>
-                <img src="imagenes/icwhatsapp.gif" alt="iconowhatsapp" ><a href="">1165012875</a>
-                <p>Redes Sociales</p>
-    
-            </div>
-        </footer>
-
-   </body>
-   </html>
+    <!-- A partir de aca el footer -->
+    <footer>
+      <div class="piedepagina">
+        <p>Desarrollo web . Hector Velazquez - 2024</p>
+        <img src="imagenes/icwhatsapp.gif" alt="iconowhatsapp" /><a href=""
+          >1165012875</a
+        >
+        <p>Redes Sociales</p>
+      </div>
+    </footer>
+  </body>
+</html>
